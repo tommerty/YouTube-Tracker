@@ -11,8 +11,7 @@ body:
     value: "## Video Idea"
 - type: markdown
   attributes:
-    value: |
-      What are we thinking?
+    value: What are we thinking?
 - type: input
   id: title
   attributes:
