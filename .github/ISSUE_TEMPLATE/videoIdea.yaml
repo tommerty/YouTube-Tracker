@@ -1,0 +1,38 @@
+name: Video Idea
+description: New idea for a YouTube video
+title: "[Video]: "
+labels: ["Idea"]
+projects: ["tommerty/10"]
+assignees:
+  - tommerty
+body:
+- type: markdown
+  attributes:
+    value: "## Video Idea"
+- type: markdown
+  attributes:
+    value: |
+      What are we thinking?
+- type: input
+  id: title
+  attributes:
+    label: Video Title
+    description: "A basic idea for a title"
+    placeholder: "..."
+  validations:
+    required: true
+- type: textarea
+  id: idea
+  attributes:
+    label: Idea
+    description: "What's the main concept, and how should it be structured?"
+    value: |
+      - Main concept:
+      ``` ```
+      -Structure
+      1.
+      2.
+      3.
+      ...
+  validations:
+    required: true
