@@ -21,3 +21,10 @@ body:
     description: "What's the main concept, and how should it be structured?"
   validations:
     required: true
+- type: input
+  id: repo
+  attributes:
+    label: Associated repository or links
+    description: "Does this video have any code references or need a link to anything specific?"
+    placeholder: "https://github.com/tommerty/..."
+    value: "https://github.com/tommerty/..."
