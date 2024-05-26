@@ -8,10 +8,7 @@ assignees:
 body:
 - type: markdown
   attributes:
-    value: "## Video Idea"
-- type: markdown
-  attributes:
-    value: What are we thinking?
+    value: "#### Video idea"
 - type: input
   id: title
   attributes:
