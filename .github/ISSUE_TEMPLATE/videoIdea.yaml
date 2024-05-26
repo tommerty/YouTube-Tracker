@@ -1,6 +1,6 @@
 name: Video Idea
 description: New idea for a YouTube video
-title: "[Video]: "
+title: ""
 labels: ["Idea"]
 projects: ["tommerty/10"]
 assignees:
@@ -9,7 +9,7 @@ body:
 - type: input
   id: title
   attributes:
-    label: Title of the video (basic idea)
+    label: General idea
     description: "A basic idea for a title"
     placeholder: "..."
   validations:
@@ -17,15 +17,7 @@ body:
 - type: textarea
   id: idea
   attributes:
-    label: Idea
+    label: Further explanation
     description: "What's the main concept, and how should it be structured?"
-    value: |
-      - Main concept:
-      ``` ```
-      -Structure
-      1.
-      2.
-      3.
-      ...
   validations:
     required: true
