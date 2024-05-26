@@ -1,6 +1,6 @@
 name: Video Idea
 description: New idea for a YouTube video
-title: ""
+title: "What's the title?"
 labels: ["Idea"]
 projects: ["tommerty/10"]
 assignees:
