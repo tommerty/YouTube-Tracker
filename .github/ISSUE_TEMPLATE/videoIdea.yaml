@@ -6,13 +6,10 @@ projects: ["tommerty/10"]
 assignees:
   - tommerty
 body:
-- type: markdown
-  attributes:
-    value: "#### Video idea"
 - type: input
   id: title
   attributes:
-    label: Video Title
+    label: Title of the video (basic idea)
     description: "A basic idea for a title"
     placeholder: "..."
   validations:
